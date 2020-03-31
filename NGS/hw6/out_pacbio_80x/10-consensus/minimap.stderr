@@ -1,0 +1,8 @@
+[samfaipath] build FASTA index...
+[M::mm_idx_gen::0.150*1.00] collected minimizers
+[M::mm_idx_gen::0.195*1.00] sorted minimizers
+[M::main::0.195*1.00] loaded/built the index for 8 target sequence(s)
+[M::mm_mapopt_update::0.205*1.00] mid_occ = 6
+[M::mm_idx_stat] kmer size: 19; skip: 10; is_hpc: 1; #seq: 8
+[M::mm_idx_stat::0.212*1.00] distinct minimizers: 633221 (99.10% are singletons); average occurrences: 1.012; average spacing: 7.564
+samtools sort: couldn't allocate memory for bam_mem

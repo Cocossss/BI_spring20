@@ -1,0 +1,192 @@
+[2020-03-31 15:39:40] root: INFO: Starting Flye 2.7-b1587
+[2020-03-31 15:39:40] root: DEBUG: Cmd: ./Flye/bin/flye --pacbio-raw ./data/pacbio_80x.fq.gz --out-dir ./out_pacbio_80x --genome-size 4.5m
+[2020-03-31 15:39:40] root: DEBUG: Python version: 3.6.8 |Anaconda, Inc.| (default, Dec 30 2018, 01:22:34) 
+[GCC 7.3.0]
+[2020-03-31 15:39:40] root: INFO: >>>STAGE: configure
+[2020-03-31 15:39:40] root: INFO: Configuring run
+[2020-03-31 15:39:48] root: INFO: Total read length: 436994771
+[2020-03-31 15:39:48] root: INFO: Input genome size: 4500000
+[2020-03-31 15:39:48] root: INFO: Estimated coverage: 97
+[2020-03-31 15:39:48] root: INFO: Reads N50/N90: 7566 / 2967
+[2020-03-31 15:39:48] root: INFO: Minimum overlap set to 3000
+[2020-03-31 15:39:48] root: INFO: Selected k-mer size: 15
+[2020-03-31 15:39:48] root: INFO: >>>STAGE: assembly
+[2020-03-31 15:39:48] root: INFO: Assembling disjointigs
+[2020-03-31 15:39:48] root: DEBUG: -----Begin assembly log------
+[2020-03-31 15:39:48] root: DEBUG: Running: flye-modules assemble --reads ./data/pacbio_80x.fq.gz --out-asm /home/cocos/BIOINF/spring/ngs/HW6/out_pacbio_80x/00-assembly/draft_assembly.fasta --genome-size 4500000 --config /home/cocos/BIOINF/spring/ngs/HW6/Flye/flye/config/bin_cfg/asm_raw_reads.cfg --log /home/cocos/BIOINF/spring/ngs/HW6/out_pacbio_80x/flye.log --threads 1 --min-ovlp 3000 --kmer 15
+[2020-03-31 15:39:48] DEBUG: Build date: Mar 29 2020 20:40:05
+[2020-03-31 15:39:48] DEBUG: Total RAM: 7 Gb
+[2020-03-31 15:39:48] DEBUG: Available RAM: 4 Gb
+[2020-03-31 15:39:48] DEBUG: Total CPUs: 8
+[2020-03-31 15:39:48] DEBUG: Loading /home/cocos/BIOINF/spring/ngs/HW6/Flye/flye/config/bin_cfg/asm_raw_reads.cfg
+[2020-03-31 15:39:48] DEBUG: Loading /home/cocos/BIOINF/spring/ngs/HW6/Flye/flye/config/bin_cfg/asm_defaults.cfg
+[2020-03-31 15:39:48] DEBUG: 	big_genome_threshold=29000000
+[2020-03-31 15:39:48] DEBUG: 	max_coverage_drop_rate=5
+[2020-03-31 15:39:48] DEBUG: 	chimera_window=100
+[2020-03-31 15:39:48] DEBUG: 	min_reads_in_disjointig=4
+[2020-03-31 15:39:48] DEBUG: 	max_inner_reads=10
+[2020-03-31 15:39:48] DEBUG: 	max_inner_fraction=0.25
+[2020-03-31 15:39:48] DEBUG: 	max_separation=500
+[2020-03-31 15:39:48] DEBUG: 	unique_edge_length=50000
+[2020-03-31 15:39:48] DEBUG: 	min_repeat_res_support=0.51
+[2020-03-31 15:39:48] DEBUG: 	out_paths_ratio=5
+[2020-03-31 15:39:48] DEBUG: 	graph_cov_drop_rate=5
+[2020-03-31 15:39:48] DEBUG: 	coverage_estimate_window=100
+[2020-03-31 15:39:48] DEBUG: 	max_bubble_length=50000
+[2020-03-31 15:39:48] DEBUG: 	loop_coverage_rate=1.5
+[2020-03-31 15:39:48] DEBUG: 	repeat_edge_cov_mult=1.75
+[2020-03-31 15:39:48] DEBUG: 	weak_detach_rate=5
+[2020-03-31 15:39:48] DEBUG: 	tip_coverage_rate=2
+[2020-03-31 15:39:48] DEBUG: 	tip_length_rate=2
+[2020-03-31 15:39:48] DEBUG: 	low_cutoff_warning=1
+[2020-03-31 15:39:48] DEBUG: 	hard_min_coverage_rate=10
+[2020-03-31 15:39:48] DEBUG: 	assemble_kmer_sample=1
+[2020-03-31 15:39:48] DEBUG: 	repeat_graph_kmer_sample=1
+[2020-03-31 15:39:48] DEBUG: 	read_align_kmer_sample=1
+[2020-03-31 15:39:48] DEBUG: 	meta_read_top_kmer_rate=0.25
+[2020-03-31 15:39:48] DEBUG: 	meta_read_filter_kmer_freq=10
+[2020-03-31 15:39:48] DEBUG: 	maximum_jump=1500
+[2020-03-31 15:39:48] DEBUG: 	maximum_overhang=1500
+[2020-03-31 15:39:48] DEBUG: 	repeat_kmer_rate=100
+[2020-03-31 15:39:48] DEBUG: 	assemble_ovlp_relative_divergence=0.10
+[2020-03-31 15:39:48] DEBUG: 	repeat_graph_ovlp_divergence=0.10
+[2020-03-31 15:39:48] DEBUG: 	read_align_ovlp_divergence=0.25
+[2020-03-31 15:39:48] DEBUG: 	add_unassembled_reads=0
+[2020-03-31 15:39:48] DEBUG: 	extend_contigs_with_repeats=1
+[2020-03-31 15:39:48] DEBUG: 	min_read_cov_cutoff=3
+[2020-03-31 15:39:48] DEBUG: 	short_tip_length=20000
+[2020-03-31 15:39:48] DEBUG: 	long_tip_length=100000
+[2020-03-31 15:39:48] DEBUG: Running with k-mer size: 15
+[2020-03-31 15:39:48] DEBUG: Running with minimum overlap 3000
+[2020-03-31 15:39:48] DEBUG: Metagenome mode: N
+[2020-03-31 15:39:48] INFO: Reading sequences
+[2020-03-31 15:39:55] DEBUG: Building positional index
+[2020-03-31 15:39:55] DEBUG: Total sequence: 436994771 bp
+[2020-03-31 15:39:55] DEBUG: Expected read coverage: 97
+[2020-03-31 15:39:55] INFO: Generating solid k-mer index
+[2020-03-31 15:39:55] DEBUG: Hard threshold set to 5
+[2020-03-31 15:39:55] DEBUG: Started k-mer counting
+[2020-03-31 15:40:10] INFO: Counting k-mers (1/2):
+[2020-03-31 15:41:34] INFO: Counting k-mers (2/2):
+[2020-03-31 15:43:28] DEBUG: Estimated minimum kmer coverage: 11
+[2020-03-31 15:43:28] DEBUG: Filtered 15316951 erroneous k-mers
+[2020-03-31 15:43:28] DEBUG: Repetitive k-mer frequency: 1865
+[2020-03-31 15:43:28] DEBUG: Filtered 65 repetitive k-mers (1.48266e-05)
+[2020-03-31 15:43:28] INFO: Filling index table
+[2020-03-31 15:43:29] DEBUG: Sampling rate: 1
+[2020-03-31 15:43:29] DEBUG: Solid k-mers: 4383945
+[2020-03-31 15:43:29] DEBUG: K-mer index size: 81392894
+[2020-03-31 15:43:29] DEBUG: Mean k-mer frequency: 18.5661
+[2020-03-31 15:45:15] DEBUG: Sorting k-mer index
+[2020-03-31 15:45:15] DEBUG: Peak RAM usage: 2 Gb
+[2020-03-31 15:45:15] DEBUG: Estimating k-mer identity bias
+[2020-03-31 15:45:29] DEBUG: Median overlap divergence: 0.188606
+[2020-03-31 15:45:29] DEBUG: K-mer estimate bias (true - est): -0.0155295
+[2020-03-31 15:45:29] DEBUG: Max divergence threshold set to 0.288606
+[2020-03-31 15:45:29] INFO: Extending reads
+[2020-03-31 15:45:29] DEBUG: Estimating overlap coverage
+[2020-03-31 15:45:34] INFO: Overlap-based coverage: 25
+[2020-03-31 15:45:34] INFO: Median overlap divergence: 0.188957
+[2020-03-31 15:45:34] DEBUG: Sequence divergence distribution: 
+
+    |                                        *                |                                          
+    |                                  *     *                |                                          
+    |                                  *     *                |                                          
+    |                                  *    **                |                                          
+    |                                  *    **                |                                          
+    |                                  ***  **                |                                          
+    |                                  *******                |                                          
+    |                                *********                |                                          
+    |                               **********                |                                          
+    |                               **********                |                                          
+    |                              ************  **           |                                          
+    |                           * *************  **           |                                          
+    |                           *************** **** *        |                                          
+    |                         * **********************        |                                          
+    |                         * **********************        |                                          
+    |                         **************************      |                                          
+    |                        ****************************     |                                          
+    |                       ****************************** * *|                                          
+    |                      ********************************* **                                          
+    |                      ************************************** *     *                                
+    ----------------------------------------------------------------------------------------------------
+    0%        5%        10%       15%       20%       25%       30%       35%       40%       45%       
+
+    Q25 = 0.16, Q50 = 0.19, Q75 = 0.22
+
+[2020-03-31 15:46:06] DEBUG: Assembled disjointig 1
+	With 1453 reads
+	Start read: +m130404_014004_sidney_c100506902550000001823076808221337_s1_p0/138169/1685_7732
+	At position: 1451
+	leftTip: 0 rightTip: 0
+	Suspicious: 0
+	Mean extensions: 16
+	Avg overlap len: 9922
+	Min overlap len: 3843
+	Inner reads: 0
+	Length: 4770300
+[2020-03-31 15:46:06] DEBUG: Ovlp index size: 160208
+[2020-03-31 15:46:06] DEBUG: Inner: 65822 covered: 76456 total: 109876
+[2020-03-31 15:46:09] DEBUG: Assembled disjointig 2
+	With 7 reads
+	Start read: +m130404_014004_sidney_c100506902550000001823076808221337_s1_p0/80907/10448_14381
+	At position: 4
+	leftTip: 0 rightTip: 0
+	Suspicious: 0
+	Mean extensions: 15
+	Avg overlap len: 5422
+	Min overlap len: 3425
+	Inner reads: 0
+	Length: 22643
+[2020-03-31 15:46:09] DEBUG: Ovlp index size: 160670
+[2020-03-31 15:46:09] DEBUG: Inner: 65864 covered: 77014 total: 109876
+[2020-03-31 15:46:45] DEBUG: Assembled disjointig 3
+	With 5 reads
+	Start read: +m130404_014004_sidney_c100506902550000001823076808221337_s1_p0/151998/15315_20183
+	At position: 3
+	leftTip: 0 rightTip: 0
+	Suspicious: 0
+	Mean extensions: 10
+	Avg overlap len: 5978
+	Min overlap len: 3684
+	Inner reads: 0
+	Length: 18814
+[2020-03-31 15:46:45] DEBUG: Ovlp index size: 161090
+[2020-03-31 15:46:45] DEBUG: Inner: 65892 covered: 84252 total: 109876
+[2020-03-31 15:48:06] DEBUG: Assembled disjointig 4
+	With 5 reads
+	Start read: +m130404_014004_sidney_c100506902550000001823076808221337_s1_p0/156375/7417_11086
+	At position: 2
+	leftTip: 0 rightTip: 0
+	Suspicious: 0
+	Mean extensions: 12
+	Avg overlap len: 5937
+	Min overlap len: 3547
+	Inner reads: 0
+	Length: 17500
+[2020-03-31 15:48:06] DEBUG: Ovlp index size: 162115
+[2020-03-31 15:48:06] DEBUG: Inner: 65930 covered: 101612 total: 109876
+[2020-03-31 15:48:37] DEBUG: Assembled disjointig 5
+	With 4 reads
+	Start read: +m130404_014004_sidney_c100506902550000001823076808221337_s1_p0/12845/6362_10723
+	At position: 3
+	leftTip: 0 rightTip: 0
+	Suspicious: 0
+	Mean extensions: 3
+	Avg overlap len: 3200
+	Min overlap len: 3200
+	Inner reads: 0
+	Length: 13928
+[2020-03-31 15:48:37] DEBUG: Ovlp index size: 162729
+[2020-03-31 15:48:37] DEBUG: Inner: 65940 covered: 108320 total: 109876
+[2020-03-31 15:48:44] INFO: Assembled 5 disjointigs
+[2020-03-31 15:48:45] INFO: Generating sequence
+[2020-03-31 15:53:22] DEBUG: Writing FASTA
+[2020-03-31 15:53:22] DEBUG: Peak RAM usage: 2 Gb
+-----------End assembly log------------
+[2020-03-31 15:53:22] root: DEBUG: Disjointigs length: 4844883, N50: 4772308
+[2020-03-31 15:53:22] root: INFO: >>>STAGE: consensus
+[2020-03-31 15:53:22] root: INFO: Running Minimap2
+[2020-03-31 15:58:30] root: ERROR: Error running minimap2, terminating. See the alignment error log  for details: /home/cocos/BIOINF/spring/ngs/HW6/out_pacbio_80x/10-consensus/minimap.stderr
+[2020-03-31 15:58:30] root: ERROR: Command '['/bin/bash', '-c', 'set -o pipefail; flye-minimap2 /home/cocos/BIOINF/spring/ngs/HW6/out_pacbio_80x/10-consensus/chunks.fasta ./data/pacbio_80x.fq.gz -x map-pb -t 1 -a -p 0.5 -N 10 --sam-hit-only -L -Q --secondary-seq | flye-samtools view -T /home/cocos/BIOINF/spring/ngs/HW6/out_pacbio_80x/10-consensus/chunks.fasta -u - | flye-samtools sort -T /home/cocos/BIOINF/spring/ngs/HW6/out_pacbio_80x/10-consensus/sort_200331_155322 -O bam -@ 4 -l 1 -m 1G']' returned non-zero exit status 1.
+[2020-03-31 15:58:30] root: ERROR: Pipeline aborted

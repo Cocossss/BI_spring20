@@ -1,0 +1,6 @@
+Assembly	out_pacbio_10x_assembly	out_pacbio_20x_assembly	out_pacbio_40x_assembly	out_illumina_pacbio_10x_contigs	out_illumina_pacbio_20x_contigs	out_illumina_pacbio_40x_contigs	out_illumina_pacbio_80x_contigs	out_illumina_contigs
+# fully unaligned contigs	0	0	0	1	1	1	1	1
+Fully unaligned length	0	0	0	542	542	542	542	542
+# partially unaligned contigs	47	10	0	0	0	0	0	0
+Partially unaligned length	143387	32261	0	0	0	0	0	0
+# N's	0	0	0	0	0	0	0	0

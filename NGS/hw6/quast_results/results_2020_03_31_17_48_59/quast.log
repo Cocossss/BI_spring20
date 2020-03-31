@@ -1,0 +1,261 @@
+./quast-5.0.2/quast.py -r ./data/reference.fasta ./out_pacbio_10x/assembly.fasta ./out_pacbio_20x/assembly.fasta ./out_pacbio_40x/assembly.fasta ./out_illumina_pacbio_10x/contigs.fasta ./out_illumina_pacbio_20x/contigs.fasta ./out_illumina_pacbio_40x/contigs.fasta ./out_illumina_pacbio_80x/contigs.fasta ./out_illumina/contigs.fasta
+
+Version: 5.0.2, 0bb1dd1b
+
+System information:
+  OS: Linux-4.15.0-91-generic-x86_64-with-debian-buster-sid (linux_64)
+  Python version: 3.6.8
+  CPUs number: 8
+
+Started: 2020-03-31 17:48:59
+
+Logging to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/quast.log
+NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
+
+CWD: /home/cocos/BIOINF/spring/ngs/HW6
+Main parameters: 
+  MODE: default, threads: 2, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/cocos/BIOINF/spring/ngs/HW6/data/reference.fasta ==> reference
+
+Contigs:
+  Pre-processing...
+  1  ./out_pacbio_10x/assembly.fasta ==> out_pacbio_10x_assembly
+  2  ./out_pacbio_20x/assembly.fasta ==> out_pacbio_20x_assembly
+  3  ./out_pacbio_40x/assembly.fasta ==> out_pacbio_40x_assembly
+  4  ./out_illumina_pacbio_10x/contigs.fasta ==> out_illumina_pacbio_10x_contigs
+  5  ./out_illumina_pacbio_20x/contigs.fasta ==> out_illumina_pacbio_20x_contigs
+  6  ./out_illumina_pacbio_40x/contigs.fasta ==> out_illumina_pacbio_40x_contigs
+  7  ./out_illumina_pacbio_80x/contigs.fasta ==> out_illumina_pacbio_80x_contigs
+  8  ./out_illumina/contigs.fasta ==> out_illumina_contigs
+
+2020-03-31 17:49:00
+Running Basic statistics processor...
+  Reference genome:
+    reference.fasta, length = 4639675, num fragments = 1, GC % = 50.79
+  Contig files: 
+    1  out_pacbio_10x_assembly
+    2  out_pacbio_20x_assembly
+    3  out_pacbio_40x_assembly
+    4  out_illumina_pacbio_10x_contigs
+    5  out_illumina_pacbio_20x_contigs
+    6  out_illumina_pacbio_40x_contigs
+    7  out_illumina_pacbio_80x_contigs
+    8  out_illumina_contigs
+  Calculating N50 and L50...
+    1  out_pacbio_10x_assembly, N50 = 61597, L50 = 25, Total length = 4333634, GC % = 50.62, # N's per 100 kbp =  0.00
+    2  out_pacbio_20x_assembly, N50 = 303960, L50 = 6, Total length = 4681275, GC % = 50.77, # N's per 100 kbp =  0.00
+    3  out_pacbio_40x_assembly, N50 = 4642048, L50 = 1, Total length = 4642048, GC % = 50.79, # N's per 100 kbp =  0.00
+    4  out_illumina_pacbio_10x_contigs, N50 = 1034546, L50 = 2, Total length = 4633017, GC % = 50.78, # N's per 100 kbp =  0.00
+    5  out_illumina_pacbio_20x_contigs, N50 = 4636416, L50 = 1, Total length = 4641636, GC % = 50.79, # N's per 100 kbp =  0.00
+    6  out_illumina_pacbio_40x_contigs, N50 = 4641722, L50 = 1, Total length = 4642264, GC % = 50.79, # N's per 100 kbp =  0.00
+    7  out_illumina_pacbio_80x_contigs, N50 = 4641722, L50 = 1, Total length = 4642264, GC % = 50.79, # N's per 100 kbp =  0.00
+    8  out_illumina_contigs, N50 = 129054, L50 = 14, Total length = 4555330, GC % = 50.74, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/GC_content_plot.pdf
+  Drawing out_pacbio_10x_assembly GC content plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_pacbio_10x_assembly_GC_content_plot.pdf
+  Drawing out_pacbio_20x_assembly GC content plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_pacbio_20x_assembly_GC_content_plot.pdf
+  Drawing out_pacbio_40x_assembly GC content plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_pacbio_40x_assembly_GC_content_plot.pdf
+  Drawing out_illumina_pacbio_10x_contigs GC content plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_illumina_pacbio_10x_contigs_GC_content_plot.pdf
+  Drawing out_illumina_pacbio_20x_contigs GC content plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_illumina_pacbio_20x_contigs_GC_content_plot.pdf
+  Drawing out_illumina_pacbio_40x_contigs GC content plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_illumina_pacbio_40x_contigs_GC_content_plot.pdf
+  Drawing out_illumina_pacbio_80x_contigs GC content plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_illumina_pacbio_80x_contigs_GC_content_plot.pdf
+  Drawing out_illumina_contigs GC content plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_illumina_contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/coverage_histogram.pdf
+  Drawing out_illumina_pacbio_10x_contigs coverage histogram (bin size: 1x)...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_illumina_pacbio_10x_contigs_coverage_histogram.pdf
+  Drawing out_illumina_pacbio_20x_contigs coverage histogram (bin size: 1x)...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_illumina_pacbio_20x_contigs_coverage_histogram.pdf
+  Drawing out_illumina_pacbio_40x_contigs coverage histogram (bin size: 1x)...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_illumina_pacbio_40x_contigs_coverage_histogram.pdf
+  Drawing out_illumina_pacbio_80x_contigs coverage histogram (bin size: 1x)...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_illumina_pacbio_80x_contigs_coverage_histogram.pdf
+  Drawing out_illumina_contigs coverage histogram (bin size: 1x)...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/basic_stats/out_illumina_contigs_coverage_histogram.pdf
+Done.
+
+2020-03-31 17:49:05
+Running Contig analyzer...
+  1  out_pacbio_10x_assembly
+  2  out_pacbio_20x_assembly
+  1  Logging to files /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_pacbio_10x_assembly.stdout and contigs_report_out_pacbio_10x_assembly.stderr...
+  2  Logging to files /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_pacbio_20x_assembly.stdout and contigs_report_out_pacbio_20x_assembly.stderr...
+  1  Aligning contigs to the reference
+  2  Aligning contigs to the reference
+  1  /home/cocos/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 \
+     -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t \
+     1 quast_results/results_2020_03_31_17_48_59/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_03_31_17_48_59/quast_corrected_input/out_pacbio_10x_assembly.fasta \
+     > quast_results/results_2020_03_31_17_48_59/contigs_reports/minimap_output/out_pacbio_10x_assembly.coords_tmp \
+     2>> quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_pacbio_10x_assembly.stderr
+  2  /home/cocos/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 \
+     -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t \
+     1 quast_results/results_2020_03_31_17_48_59/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_03_31_17_48_59/quast_corrected_input/out_pacbio_20x_assembly.fasta \
+     > quast_results/results_2020_03_31_17_48_59/contigs_reports/minimap_output/out_pacbio_20x_assembly.coords_tmp \
+     2>> quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_pacbio_20x_assembly.stderr
+  2  Analysis is finished.
+
+  3  out_pacbio_40x_assembly
+  3  Logging to files /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_pacbio_40x_assembly.stdout and contigs_report_out_pacbio_40x_assembly.stderr...
+  3  Aligning contigs to the reference
+  3  /home/cocos/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 \
+     -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t \
+     1 quast_results/results_2020_03_31_17_48_59/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_03_31_17_48_59/quast_corrected_input/out_pacbio_40x_assembly.fasta \
+     > quast_results/results_2020_03_31_17_48_59/contigs_reports/minimap_output/out_pacbio_40x_assembly.coords_tmp \
+     2>> quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_pacbio_40x_assembly.stderr
+  1  Analysis is finished.
+
+  4  out_illumina_pacbio_10x_contigs
+  4  Logging to files /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_illumina_pacbio_10x_contigs.stdout and contigs_report_out_illumina_pacbio_10x_contigs.stderr...
+  4  Aligning contigs to the reference
+  4  /home/cocos/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 \
+     -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t \
+     1 quast_results/results_2020_03_31_17_48_59/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_03_31_17_48_59/quast_corrected_input/out_illumina_pacbio_10x_contigs.fasta \
+     > quast_results/results_2020_03_31_17_48_59/contigs_reports/minimap_output/out_illumina_pacbio_10x_contigs.coords_tmp \
+     2>> quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_illumina_pacbio_10x_contigs.stderr
+  4  Analysis is finished.
+
+  5  out_illumina_pacbio_20x_contigs
+  5  Logging to files /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_illumina_pacbio_20x_contigs.stdout and contigs_report_out_illumina_pacbio_20x_contigs.stderr...
+  5  Aligning contigs to the reference
+  5  /home/cocos/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 \
+     -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t \
+     1 quast_results/results_2020_03_31_17_48_59/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_03_31_17_48_59/quast_corrected_input/out_illumina_pacbio_20x_contigs.fasta \
+     > quast_results/results_2020_03_31_17_48_59/contigs_reports/minimap_output/out_illumina_pacbio_20x_contigs.coords_tmp \
+     2>> quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_illumina_pacbio_20x_contigs.stderr
+  3  Analysis is finished.
+
+  6  out_illumina_pacbio_40x_contigs
+  6  Logging to files /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_illumina_pacbio_40x_contigs.stdout and contigs_report_out_illumina_pacbio_40x_contigs.stderr...
+  6  Aligning contigs to the reference
+  6  /home/cocos/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 \
+     -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t \
+     1 quast_results/results_2020_03_31_17_48_59/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_03_31_17_48_59/quast_corrected_input/out_illumina_pacbio_40x_contigs.fasta \
+     > quast_results/results_2020_03_31_17_48_59/contigs_reports/minimap_output/out_illumina_pacbio_40x_contigs.coords_tmp \
+     2>> quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_illumina_pacbio_40x_contigs.stderr
+  5  Analysis is finished.
+
+  7  out_illumina_pacbio_80x_contigs
+  7  Logging to files /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_illumina_pacbio_80x_contigs.stdout and contigs_report_out_illumina_pacbio_80x_contigs.stderr...
+  7  Aligning contigs to the reference
+  7  /home/cocos/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 \
+     -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t \
+     1 quast_results/results_2020_03_31_17_48_59/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_03_31_17_48_59/quast_corrected_input/out_illumina_pacbio_80x_contigs.fasta \
+     > quast_results/results_2020_03_31_17_48_59/contigs_reports/minimap_output/out_illumina_pacbio_80x_contigs.coords_tmp \
+     2>> quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_illumina_pacbio_80x_contigs.stderr
+  6  Analysis is finished.
+
+  8  out_illumina_contigs
+  8  Logging to files /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_illumina_contigs.stdout and contigs_report_out_illumina_contigs.stderr...
+  8  Aligning contigs to the reference
+  8  /home/cocos/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 \
+     -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t \
+     1 quast_results/results_2020_03_31_17_48_59/quast_corrected_input/reference.fasta \
+     quast_results/results_2020_03_31_17_48_59/quast_corrected_input/out_illumina_contigs.fasta \
+     > quast_results/results_2020_03_31_17_48_59/contigs_reports/minimap_output/out_illumina_contigs.coords_tmp \
+     2>> quast_results/results_2020_03_31_17_48_59/contigs_reports/contigs_report_out_illumina_contigs.stderr
+  8  Analysis is finished.
+
+  7  Analysis is finished.
+
+  Creating total report...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2020-03-31 17:49:14
+Running NA-NGA calculation...
+  1  out_pacbio_10x_assembly, Largest alignment = 154705, NA50 = 56579, NGA50 = 55056, LA50 = 26, LGA50 = 29
+  2  out_pacbio_20x_assembly, Largest alignment = 589942, NA50 = 302625, NGA50 = 302625, LA50 = 6, LGA50 = 6
+  3  out_pacbio_40x_assembly, Largest alignment = 2167286, NA50 = 948762, NGA50 = 948762, LA50 = 2, LGA50 = 2
+  4  out_illumina_pacbio_10x_contigs, Largest alignment = 1034546, NA50 = 572346, NGA50 = 572346, LA50 = 3, LGA50 = 3
+  5  out_illumina_pacbio_20x_contigs, Largest alignment = 3023576, NA50 = 3023576, NGA50 = 3023576, LA50 = 1, LGA50 = 1
+  6  out_illumina_pacbio_40x_contigs, Largest alignment = 3023578, NA50 = 3023578, NGA50 = 3023578, LA50 = 1, LGA50 = 1
+  7  out_illumina_pacbio_80x_contigs, Largest alignment = 3023578, NA50 = 3023578, NGA50 = 3023578, LA50 = 1, LGA50 = 1
+  8  out_illumina_contigs, Largest alignment = 221546, NA50 = 129054, NGA50 = 129054, LA50 = 14, LGA50 = 14
+  Drawing cumulative plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/aligned_stats/NGAx_plot.pdf
+Done.
+
+2020-03-31 17:49:14
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  1  out_pacbio_10x_assembly
+  2  out_pacbio_20x_assembly
+  1  Analysis is finished.
+  3  out_pacbio_40x_assembly
+  2  Analysis is finished.
+  4  out_illumina_pacbio_10x_contigs
+  3  Analysis is finished.
+  5  out_illumina_pacbio_20x_contigs
+  4  Analysis is finished.
+  6  out_illumina_pacbio_40x_contigs
+  5  Analysis is finished.
+  7  out_illumina_pacbio_80x_contigs
+  6  Analysis is finished.
+  8  out_illumina_contigs
+  7  Analysis is finished.
+  8  Analysis is finished.
+  Drawing Genome fraction, % histogram...
+    saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2020-03-31 17:49:18
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2020-03-31 17:49:22
+RESULTS:
+  Text versions of total report are saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/report.html
+  PDF version (tables and plots) is saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/report.pdf
+  Icarus (contig browser) is saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/icarus.html
+  Log is saved to /home/cocos/BIOINF/spring/ngs/HW6/quast_results/results_2020_03_31_17_48_59/quast.log
+
+Finished: 2020-03-31 17:49:22
+Elapsed time: 0:00:23.814522
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

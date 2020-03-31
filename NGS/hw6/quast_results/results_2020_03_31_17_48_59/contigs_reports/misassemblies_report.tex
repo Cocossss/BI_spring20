@@ -1,0 +1,32 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{8}{|r}|}
+\hline
+Assembly & out\_pacbio\_10x\_assembly & out\_pacbio\_20x\_assembly & out\_pacbio\_40x\_assembly & out\_illumina\_pacbio\_10x\_contigs & out\_illumina\_pacbio\_20x\_contigs & out\_illumina\_pacbio\_40x\_contigs & out\_illumina\_pacbio\_80x\_contigs & out\_illumina\_contigs \\ \hline
+\# misassemblies & 16 & 9 & 8 & 6 & 6 & 6 & 6 & {\bf 0} \\ \hline
+\hspace{2mm}\# contig misassemblies & 16 & 9 & 8 & 6 & 6 & 6 & 6 & 0 \\ \hline
+\hspace{5mm}\# c. relocations & 13 & 7 & 6 & 6 & 6 & 6 & 6 & 0 \\ \hline
+\hspace{5mm}\# c. translocations & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# c. inversions & 3 & 2 & 2 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{2mm}\# scaffold misassemblies & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# s. relocations & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# s. translocations & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# s. inversions & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 10 & 5 & 1 & 2 & 1 & 1 & 1 & {\bf 0} \\ \hline
+Misassembled contigs length & 586450 & 1365787 & 4642048 & 1963782 & 4636416 & 4641722 & 4641722 & {\bf 0} \\ \hline
+\# local misassemblies & 8 & 4 & {\bf 2} & 6 & 5 & 5 & 5 & 4 \\ \hline
+\# scaffold gap ext. mis. & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# scaffold gap loc. mis. & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# unaligned mis. contigs & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# mismatches & 1633 & 328 & 51 & 328 & 380 & 386 & 386 & {\bf 47} \\ \hline
+\# indels & 22635 & 3813 & 486 & 33 & 36 & 40 & 40 & {\bf 15} \\ \hline
+\hspace{5mm}\# indels ($\leq$ 5 bp) & 22617 & 3806 & 486 & 31 & 33 & 37 & 37 & {\bf 12} \\ \hline
+\hspace{5mm}\# indels ($>$ 5 bp) & 18 & 7 & {\bf 0} & 2 & 3 & 3 & 3 & 3 \\ \hline
+Indels length & 24116 & 4071 & 503 & 82 & 179 & 183 & 183 & {\bf 77} \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

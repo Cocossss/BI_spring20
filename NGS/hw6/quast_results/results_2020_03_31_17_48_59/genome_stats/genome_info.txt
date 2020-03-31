@@ -1,0 +1,21 @@
+reference chromosomes:
+	gi_48994873_gb_U00096.2_ (total length: 4639675 bp, total length without N's: 4639675 bp, maximal covered length: 4639564 bp)
+
+total genome size: 4639675
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+out_pacbio_10x_assembly  | 88.312    | 1.023       | 60        | -         | -         | -         | -         |
+out_pacbio_20x_assembly  | 99.334    | 1.009       | 9         | -         | -         | -         | -         |
+out_pacbio_40x_assembly  | 99.998    | 1.001       | 1         | -         | -         | -         | -         |
+out_illumina_pacbio_10x_ | 99.779    | 1.001       | 12        | -         | -         | -         | -         |
+out_illumina_pacbio_20x_ | 99.969    | 1.001       | 6         | -         | -         | -         | -         |
+out_illumina_pacbio_40x_ | 99.983    | 1.001       | 5         | -         | -         | -         | -         |
+out_illumina_pacbio_80x_ | 99.983    | 1.001       | 5         | -         | -         | -         | -         |
+out_illumina_contigs     | 98.142    | 1.000       | 78        | -         | -         | -         | -         |

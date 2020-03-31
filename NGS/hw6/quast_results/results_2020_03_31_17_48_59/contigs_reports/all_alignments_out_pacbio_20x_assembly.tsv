@@ -1,0 +1,77 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1278699	1298721	801	20822	gi_48994873_gb_U00096.2_	contig_1	99.99		True
+relocation, inconsistency = 988219
+2286941	2288135	22017	20823	gi_48994873_gb_U00096.2_	contig_1	100.0		True
+relocation, inconsistency = 604905
+1298718	1682035	22018	405231	gi_48994873_gb_U00096.2_	contig_1	99.96		True
+CONTIG	contig_1	405231	misassembled
+223552	257907	1	34348	gi_48994873_gb_U00096.2_	contig_10	99.95		True
+relocation, inconsistency = -238112
+19796	20563	34349	35116	gi_48994873_gb_U00096.2_	contig_10	100.0		True
+relocation, inconsistency = 237336
+257900	503162	35117	280265	gi_48994873_gb_U00096.2_	contig_10	99.91		True
+CONTIG	contig_10	281768	misassembled
+805286	925223	2	119897	gi_48994873_gb_U00096.2_	contig_11	99.91		True
+CONTIG	contig_11	121453	correct
+2695635	2731615	2553	38666	gi_48994873_gb_U00096.2_	contig_12	98.96		True
+CONTIG	contig_12	41622	correct
+4602643	4639675	178	37185	gi_48994873_gb_U00096.2_	contig_13	99.91		True
+fake: not a misassembly [linear representation of circular genome]
+1	65882	37186	103041	gi_48994873_gb_U00096.2_	contig_13	99.92		True
+CONTIG	contig_13	103047	correct
+2672885	2701738	29159	1	gi_48994873_gb_U00096.2_	contig_14	98.69		True
+CONTIG	contig_14	29159	correct
+3539026	3577503	38488	1	gi_48994873_gb_U00096.2_	contig_15	99.75		True
+CONTIG	contig_15	40043	correct
+3210614	3413656	1	202998	gi_48994873_gb_U00096.2_	contig_16	99.97		True
+CONTIG	contig_16	202998	correct
+3426931	3540329	1	113393	gi_48994873_gb_U00096.2_	contig_18	99.9		True
+CONTIG	contig_18	118415	correct
+2729484	3140381	1	410778	gi_48994873_gb_U00096.2_	contig_19	99.94		True
+CONTIG	contig_19	410906	correct
+4309345	4408750	99985	504	gi_48994873_gb_U00096.2_	contig_2	99.71		True
+CONTIG	contig_2	99993	correct
+4420338	4420440	122	224	gi_48994873_gb_U00096.2_	contig_20	100.0		True
+local misassembly
+4420689	4420757	509	577	gi_48994873_gb_U00096.2_	contig_20	100.0		True
+local misassembly
+4422579	4604959	3082	185415	gi_48994873_gb_U00096.2_	contig_20	99.95		True
+CONTIG	contig_20	187937	correct
+926747	1026045	99264	1	gi_48994873_gb_U00096.2_	contig_21	99.93		True
+CONTIG	contig_21	99264	correct
+1871055	1948478	77407	1	gi_48994873_gb_U00096.2_	contig_22	99.96		True
+relocation, inconsistency = -106240
+1976527	1977294	78175	77408	gi_48994873_gb_U00096.2_	contig_22	100.0		True
+relocation, inconsistency = 105463
+1679223	1871063	269959	78176	gi_48994873_gb_U00096.2_	contig_22	99.95		True
+CONTIG	contig_22	269959	misassembled
+3139118	3211315	28	72196	gi_48994873_gb_U00096.2_	contig_23	99.95		True
+CONTIG	contig_23	72200	correct
+4490489	4492931	2615	160	gi_48994873_gb_U00096.2_	contig_24	98.82		True
+relocation, inconsistency = 4273968
+64434	216503	2633	154635	gi_48994873_gb_U00096.2_	contig_24	99.93		True
+CONTIG	contig_24	155416	misassembled
+2363216	2665940	1336	303960	gi_48994873_gb_U00096.2_	contig_25	99.94		True
+CONTIG	contig_25	303960	correct
+1028327	1096364	3	68019	gi_48994873_gb_U00096.2_	contig_3	99.94		True
+local misassembly
+1096184	1207028	68020	178821	gi_48994873_gb_U00096.2_	contig_3	99.95		True
+inversion
+1207029	1208825	180618	178822	gi_48994873_gb_U00096.2_	contig_3	100.0		True
+inversion
+1208826	1280681	180619	252465	gi_48994873_gb_U00096.2_	contig_3	99.94		True
+CONTIG	contig_3	253413	misassembled
+4164903	4294345	1	129395	gi_48994873_gb_U00096.2_	contig_4	99.94		True
+local misassembly
+4294457	4311003	129396	145955	gi_48994873_gb_U00096.2_	contig_4	99.71		True
+CONTIG	contig_4	145955	correct
+3574704	4164800	589942	1	gi_48994873_gb_U00096.2_	contig_5	99.92		True
+CONTIG	contig_5	589942	correct
+219151	223556	4407	1	gi_48994873_gb_U00096.2_	contig_6	99.98		True
+CONTIG	contig_6	4407	correct
+501097	806768	8979	314696	gi_48994873_gb_U00096.2_	contig_7	99.81		True
+CONTIG	contig_7	314696	correct
+1947031	2359297	412170	1	gi_48994873_gb_U00096.2_	contig_8	99.93		True
+CONTIG	contig_8	412172	correct
+4405163	4422485	17319	1	gi_48994873_gb_U00096.2_	contig_9	99.87		True
+CONTIG	contig_9	17319	correct
